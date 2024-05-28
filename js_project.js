@@ -25,9 +25,9 @@ function mintNFT (_holderid, _holdername, _amount, _year)
         "Holder Name" : _holdername,
         "Amount" : _amount,
         "Year of Creation" : _year 
-    }; // account is our demo nft's as it is unique for all acounts
+    }; // account is our demo nft's as it is unique for all acounts 
 
-    Bank.push(Account); //Here push function is used to add the account
+    Bank.push(Account); //Here push function is used to add the account in the Array bank
 }
 
 // create a "loop" that will go through an "array" of NFT's
